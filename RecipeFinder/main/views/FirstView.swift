@@ -14,6 +14,10 @@ struct FirstView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+            ChatUI()
+                .tabItem {
+                    Label("Recipe Finder", systemImage: "bubble.left")
+                }
             
         }
     }
